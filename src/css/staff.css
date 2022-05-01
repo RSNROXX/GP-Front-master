@@ -1,0 +1,106 @@
+body{
+  overflow: hidden;
+}
+
+.staffs {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 200px;
+}
+
+.staff-infor {
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  background-image: url("../assets/staff.jpg");
+  background-size: cover;
+}
+
+.add_staff {
+  margin-left: 10vh;
+  box-sizing: border-box;
+  padding-left: 10vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  height: 95vh;
+  width: 40vw;
+  background: #e1eeff;
+}
+
+/* add staff */
+.add_staff h1 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+}
+
+.add_staff input {
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 30vw;
+  height: 40px;
+  border: none;
+  margin-bottom: 4vh;
+}
+
+.add_staff textarea {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 30vw;
+  height: 100px;
+  border: none;
+  margin-bottom: 2vh;
+}
+
+.add_staff .label {
+  font-family: "Raleway", sans-serif;
+  color: #398ffc;
+}
+
+.add_staff button {
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 0;
+  background: #398ffc;
+  height: 4vh;
+  width: 30vw;
+}
+
+.upload {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px !important;
+  color: white;
+  padding: 0;
+  background: #398ffc;
+  height: 4vh;
+  width: 10vw !important;
+  margin-bottom: 30px !important;
+}
+
+.upload-image {
+  margin-bottom: 15px !important;
+}
+
+.staff-banner {
+  opacity: 0.7;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  box-sizing: border-box;
+  padding-top: 100px;
+  text-align: center;
+  height: 30vh;
+  width: 100vw;
+  background-image: url("../assets/banner-staff.jpg");
+  background-size: cover;
+}

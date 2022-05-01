@@ -1,0 +1,285 @@
+body{
+  overflow: hidden;
+}
+
+.contact {
+  width: 100%;
+  height: 90vh;
+}
+
+.contact .container-main {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Map container */
+.container-one {
+  float: left;
+  width: 50%;
+  height: 90vh;
+  z-index: 1;
+}
+
+/* Contact info container */
+.container-two {
+  float: right;
+  width: 50%;
+  z-index: 1;
+}
+
+/* Overrides GoogleAPI inline styling */
+.google-map > div > div {
+  width: 50%;
+  height: 87vh !important;
+}
+
+.contact .image img {
+  width: 100%;
+  height: 95vh;
+}
+
+.address-holder {
+  padding: 1vh;
+  width: inherit;
+  height: 5vh;
+  background-color: #c4d7ed;
+}
+
+.content-contact {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 4vh;
+  height: 95vh;
+  width: 50vw;
+  background: #e1eeff;
+}
+
+.signIn h1 {
+  margin-bottom: 30px;
+}
+
+.content-contact input {
+  box-sizing: border-box;
+  padding-left: 40px;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 30vw;
+  height: 40px;
+  border: none;
+  margin-bottom: 2vh;
+}
+
+.contact h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.contact .label {
+  color: #398ffc;
+}
+
+.contact button {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  background: #398ffc;
+  height: 4vh;
+  width: 30vw;
+}
+
+.input-wrapper--1 {
+  display: inline-block;
+  position: relative;
+}
+
+.input-wrapper--1:after {
+  font-size: 22px;
+  font-family: "FontAwesome";
+  content: "\f007";
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  color: #398ffc;
+}
+
+.input-wrapper--2 {
+  position: relative;
+}
+
+.input-wrapper--2:after {
+  font-size: 25px;
+  font-family: "FontAwesome";
+  content: "\f095";
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  color: #398ffc;
+}
+
+.input-wrapper--2-5 {
+  position: relative;
+}
+
+.input-wrapper--2-5:after {
+  font-size: 25px;
+  font-family: "FontAwesome";
+  content: "\f0c9";
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  color: #398ffc;
+}
+
+.input-wrapper--3 {
+  position: relative;
+}
+
+.input-wrapper--3:after {
+  font-size: 25px;
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  color: #398ffc;
+}
+
+.input-wrapper--4 {
+  position: relative;
+}
+
+.input-wrapper--4:after {
+  font-size: 25px;
+  font-family: "FontAwesome";
+  content: "\f086";
+  position: absolute;
+  left: 10px;
+  top: 35px;
+  color: #398ffc;
+}
+
+#message {
+  height: 80px;
+}
+
+/* Toggle Component CSS */
+.info-container {
+  margin-top: 10px;
+  padding: 1vh;
+  height: 10vh;
+  width: 29vw;
+  background-color: #c4d7ed;
+}
+
+.info-container-fb {
+  margin-top: 10px;
+  padding: 1vh;
+  height: 5vh;
+  width: 29vw;
+  background-color: #c4d7ed;
+}
+
+.info-container-fb h5 {
+  margin-left: 50px;
+  margin-top: 7px;
+}
+
+.fb-icon {
+  float: left;
+}
+
+.fb-icon:after {
+  font-size: 40px;
+  font-family: "FontAwesome";
+  content: "\f082";
+}
+
+.info-container-opening-hours {
+  margin-top: 10px;
+  padding: 1vh;
+  height: 23vh;
+  width: 29vw;
+  background-color: #c4d7ed;
+}
+
+.info-container-opening-hours ul li {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .info-container-address {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .address-holder {
+    display: none;
+  }
+
+  .google-map > div > div {
+    display: none;
+    z-index: 0;
+  }
+
+  .contact {
+    height: 100vh;
+    display: flex;
+  }
+
+  .container-main {
+    display: none;
+    z-index: 0;
+  }
+
+  .content-contact {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 11vh;
+    overflow: scroll;
+  }
+
+  .container-one {
+    display: none;
+    float: none;
+  }
+
+  .info-container {
+    width: 80vw;
+  }
+
+  .info-container-opening-hours {
+    width: 80vw;
+    height: 23vh;
+  }
+
+  .info-container-fb {
+    width: 80vw;
+  }
+
+  .contact button {
+    width: 80vw;
+  }
+
+  .info-container-address {
+    margin-top: 10px;
+    padding: 1vh;
+    height: 12vh;
+    width: 80vw;
+    background-color: #c4d7ed;
+  }
+
+  .content-contact{
+    padding-top:120px
+  }
+
+  .content-contact input{
+    width: 88%;
+  }
+}
